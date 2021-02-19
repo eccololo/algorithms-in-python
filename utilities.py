@@ -8,3 +8,7 @@ def create_random_shuffles_list(max_list, min_list, max_item, min_item):
         random_list.append(number)
 
     return random_list
+
+
+def print_execution_time(start, stop, text):
+    print(text, "{0:.8f}s,".format(stop - start))
