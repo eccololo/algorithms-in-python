@@ -19,5 +19,5 @@ stop_bs = time.time()
 
 print(f"Brutal search searched {searched_number} number {number_of_searches} times in shuffled list.")
 print(f"List has {max_list_range} items from {min_item_range} to {max_item_range}.")
-print("Shiffle execution time: {0:.4f}s".format(stop_list_creation - start_list_creation))
-print("Searching execution time: {0:.8f}s".format(stop_bs - start_bs))
+utilities.print_execution_time(start_list_creation, stop_list_creation, "List shuffle")
+utilities.print_execution_time(start_bs, stop_bs, "Brutal force search")
