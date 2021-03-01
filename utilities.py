@@ -15,3 +15,16 @@ def create_random_shuffles_list(max_list, min_list, max_item, min_item):
 def print_execution_time(start, stop, text):
     text += " execution time:"
     print(text, "{0:.8f}s,".format(stop - start))
+
+
+# This is welcome text message function. Prints welcome message.
+def print_welcome():
+    print("********************************************")
+    print("* Welcome to Algorithms in Python Program. *")
+    print("********************************************")
+    print("* I wrote this program to learn more about various algorithms implemented in Python.")
+    print("* I post it on Github because I am looking for an opportunity to work in IT industry as an intern.")
+    print("* I am interested in working with Python Language and Django Framework.")
+    print("* If you have any job opportunity for me you can contact me through my blog www.mstem.net and "
+          "social media platforms like Linkedin.com.")
+    print("*" * 30)
