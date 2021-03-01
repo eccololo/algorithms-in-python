@@ -4,29 +4,27 @@ import time
 import math
 
 utilities.print_welcome()
-
+utilities.print_main_menu()
 # Main Loop
 while True:
-    utilities.print_main_menu()
     choice = input("What is your choice?: ")
     if choice.lower() == "q":
         print("Goodbye.")
         break
-    elif choice.lower() == "w":
-        utilities.print_welcome()
-
-    if choice == 1:
+    elif choice == "1":
         print("**********************")
         print("* Search Algorithms: ")
-    elif choice == 2:
+    elif choice == "2":
         print("**********************")
         print("* Sorting Algorithms: ")
-    elif choice == 3:
+    elif choice == "3":
         print("**********************")
         print("* Brutal Force Algorithms: ")
-    elif choice == 4:
+    elif choice == "4":
         print("**********************")
         print("* Computational Complexity of Algorithms: ")
+    elif choice.lower() == "w":
+        utilities.print_welcome()
 
 min_list_range = 1
 max_list_range = 10000
