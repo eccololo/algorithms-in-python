@@ -28,3 +28,15 @@ def print_welcome():
     print("* If you have any job opportunity for me you can contact me through my blog www.mstem.net and "
           "social media platforms like Linkedin.com.")
     print("*" * 30)
+
+
+# This function prints konsole menu for this program
+def print_main_menu():
+    print("************************************")
+    print("* Main Menu: ")
+    print("* 1 - Search Algorithms.")
+    print("* 2 - Sorting Algorithms.")
+    print("* 3 - Brutal Force Algorithms.")
+    print("* 4 - Computational Complexity of Algorithms.")
+    print("* W - Print Welcome Message.")
+    print("* Q - Quit.")
